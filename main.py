@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Menentukan route/halaman utama
 @app.route("/")
 def home():
-    return "Halo, dunia! Ini adalah aplikasi Flask pertama saya."
+    return "Dzaki Suka Jonathan."
 
 # Menjalankan aplikasi jika file ini dieksekusi langsung
 if __name__ == "__main__":
